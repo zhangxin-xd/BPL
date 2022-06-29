@@ -1,1 +1,1 @@
-# Block-wise-Partner-Learning-BLP-
+# Block-wise Partner Learning for Model Compression
