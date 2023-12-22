@@ -11,8 +11,14 @@ cd BPL
 
 Data Preparation
 
-- Put [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) data to `~/data_cifar`.
-- Put unzipped [ImageNet](https://www.image-net.org/) data to `~/data_imagenet`.
+- Put [NWPU-45](https://www.kaggle.com/datasets/happyyang/nwpu-data-set) data to `~/data_nwpu`.
+- Put [UCML-21](http://weegee.vision.ucmerced.edu/datasets/landuse.html) data to `~/data_ucml`.
+
+Pruning 
+
+```
+CUDA_VISIBLE_DEVICES=0 python main.py --dataset nwpu-45 --data_path ~/data_nwpu --block_type shadow --pruning_rate 0.5
+```
 
 ## Citation
 ```
