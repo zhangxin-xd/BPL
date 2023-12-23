@@ -5,7 +5,7 @@ import argparse
 import torch
 import torch.backends.cudnn as cudnn
 import torchvision.datasets as dset
-import torchvision.transfos as transforms
+import torchvision.transforms as transforms
 from collections import namedtuple
 import numpy as np
 from  creaters.creater import ConvCreater
